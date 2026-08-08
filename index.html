@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Fiona Lau — personal website and portfolio.">
+  <meta name="description" content="Fiona Lau — work, projects, and professional portfolio.">
   <title>Fiona Lau</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -12,8 +12,9 @@
     <nav class="nav container" aria-label="Primary navigation">
       <a class="brand" href="#top">Fiona Lau</a>
       <div class="nav-links">
-        <a href="#about">About</a>
         <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -22,60 +23,108 @@
   <main id="top">
     <section class="hero container">
       <p class="eyebrow">Hello, I’m Fiona.</p>
-      <h1>Thoughtful work,<br><span>clearly presented.</span></h1>
-      <p class="hero-copy">Welcome to my corner of the web. I’m building a space to share what I’m working on, what I’m learning, and the things I care about.</p>
+      <h1>Work worth<br><span>talking about.</span></h1>
+      <p class="hero-copy">A simple home for my professional work, projects, experience, and the things I’m building along the way.</p>
       <div class="actions">
-        <a class="button primary" href="#work">Explore my work</a>
+        <a class="button primary" href="#projects">See my work</a>
         <a class="button secondary" href="#contact">Get in touch</a>
       </div>
     </section>
 
-    <section id="about" class="section container">
-      <div class="section-label">01 / About</div>
-      <div class="section-content two-column">
-        <h2>A little about me</h2>
+    <section id="work" class="section container">
+      <div class="section-label">01 / Work</div>
+      <div class="section-content work-grid">
         <div>
-          <p>This site is the starting point for my personal portfolio. I’ll use it to collect projects, ideas, writing, and other work worth sharing.</p>
-          <p>I’m interested in thoughtful problem-solving, good design, and making complex things easier to understand.</p>
+          <h2>Where I am now</h2>
+          <p class="section-intro">A quick snapshot of my professional background.</p>
+        </div>
+        <div class="work-facts">
+          <div class="fact">
+            <span class="fact-label">Currently</span>
+            <div><strong>Your current role</strong><br><span class="muted">Your company</span></div>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Education</span>
+            <div><strong>Your degree</strong><br><span class="muted">Your university</span></div>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Resume</span>
+            <div><a class="text-link" href="#">View résumé <span>↗</span></a></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="work" class="section section-alt">
+    <section id="experience" class="section section-alt">
       <div class="container">
-        <div class="section-label">02 / Selected work</div>
+        <div class="section-label">02 / Experience</div>
         <div class="section-content">
-          <h2>What I’m working on</h2>
-          <div class="cards">
-            <article class="card">
-              <span class="card-number">01</span>
-              <h3>Projects</h3>
-              <p>A home for projects, experiments, and things I’ve built.</p>
-              <span class="tag">Coming soon</span>
+          <h2>A few things I’ve done</h2>
+          <div class="experience-list">
+            <article class="experience-item">
+              <div class="experience-meta">2024 — now</div>
+              <div>
+                <h3>Your current role</h3>
+                <p class="muted">Your company</p>
+                <p>Replace this with one or two sentences about what you do, what you own, or the impact you’ve had.</p>
+              </div>
             </article>
-            <article class="card">
-              <span class="card-number">02</span>
-              <h3>Writing</h3>
-              <p>Notes, observations, and ideas I want to put into words.</p>
-              <span class="tag">Coming soon</span>
-            </article>
-            <article class="card">
-              <span class="card-number">03</span>
-              <h3>Now</h3>
-              <p>A lightweight snapshot of what I’m learning and exploring right now.</p>
-              <span class="tag">Coming soon</span>
+            <article class="experience-item">
+              <div class="experience-meta">2022 — 2024</div>
+              <div>
+                <h3>Previous role</h3>
+                <p class="muted">Previous company</p>
+                <p>A concise description of the work, projects, or outcomes that are worth highlighting.</p>
+              </div>
             </article>
           </div>
         </div>
       </div>
     </section>
 
+    <section id="projects" class="section container">
+      <div class="section-label">03 / Projects</div>
+      <div class="section-content">
+        <h2>Things I’ve made</h2>
+        <div class="project-list">
+          <a class="project" href="#">
+            <span class="project-number">01</span>
+            <span class="project-main"><strong>Project name</strong><small>A short sentence about why this project is interesting.</small></span>
+            <span class="project-year">2026</span>
+            <span class="project-arrow">↗</span>
+          </a>
+          <a class="project" href="#">
+            <span class="project-number">02</span>
+            <span class="project-main"><strong>Another project</strong><small>A short description of the work, experiment, or idea.</small></span>
+            <span class="project-year">2025</span>
+            <span class="project-arrow">↗</span>
+          </a>
+          <a class="project" href="#">
+            <span class="project-number">03</span>
+            <span class="project-main"><strong>Something else</strong><small>Another piece of work you’d like people to discover.</small></span>
+            <span class="project-year">2025</span>
+            <span class="project-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt container about">
+      <div class="section-label">04 / About</div>
+      <div class="section-content two-column">
+        <h2>A little about me</h2>
+        <div>
+          <p>This is where a more personal introduction can live — what motivates you, how you approach your work, and what you care about outside a job title.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="section container contact">
-      <div class="section-label">03 / Contact</div>
+      <div class="section-label">05 / Contact</div>
       <div class="section-content contact-content">
         <div>
-          <h2>Let’s connect.</h2>
-          <p>Want to say hello, collaborate, or share an interesting idea? I’d love to hear from you.</p>
+          <h2>Let’s talk.</h2>
+          <p>If you’d like to connect, collaborate, or just say hello, send me a note.</p>
         </div>
         <a class="email-link" href="mailto:fionalau11@gmail.com">fionalau11@gmail.com <span>↗</span></a>
       </div>
@@ -84,7 +133,7 @@
 
   <footer class="footer container">
     <span>© 2026 Fiona Lau</span>
-    <span>Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+    <span>Made with HTML &amp; CSS · Hosted on GitHub Pages</span>
   </footer>
 </body>
 </html>
